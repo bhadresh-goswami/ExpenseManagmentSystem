@@ -15,6 +15,7 @@
 		D72208742320F76600DCB9D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D72208722320F76600DCB9D9 /* LaunchScreen.storyboard */; };
 		D722087F2320F76600DCB9D9 /* EMSAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D722087E2320F76600DCB9D9 /* EMSAppTests.swift */; };
 		D722088A2320F76600DCB9D9 /* EMSAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72208892320F76600DCB9D9 /* EMSAppUITests.swift */; };
+		D72208992320FF0C00DCB9D9 /* bottomBorderedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72208982320FF0C00DCB9D9 /* bottomBorderedTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D72208852320F76600DCB9D9 /* EMSAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EMSAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D72208892320F76600DCB9D9 /* EMSAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMSAppUITests.swift; sourceTree = "<group>"; };
 		D722088B2320F76600DCB9D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D72208982320FF0C00DCB9D9 /* bottomBorderedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bottomBorderedTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		D72208652320F76600DCB9D9 /* EMSApp */ = {
 			isa = PBXGroup;
 			children = (
+				D72208972320FEC900DCB9D9 /* Custom Class */,
 				D72208662320F76600DCB9D9 /* AppDelegate.swift */,
 				D72208682320F76600DCB9D9 /* ViewController.swift */,
 				D722086A2320F76600DCB9D9 /* Main.storyboard */,
@@ -126,6 +129,14 @@
 				D722088B2320F76600DCB9D9 /* Info.plist */,
 			);
 			path = EMSAppUITests;
+			sourceTree = "<group>";
+		};
+		D72208972320FEC900DCB9D9 /* Custom Class */ = {
+			isa = PBXGroup;
+			children = (
+				D72208982320FF0C00DCB9D9 /* bottomBorderedTextField.swift */,
+			);
+			path = "Custom Class";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D72208692320F76600DCB9D9 /* ViewController.swift in Sources */,
+				D72208992320FF0C00DCB9D9 /* bottomBorderedTextField.swift in Sources */,
 				D722086F2320F76600DCB9D9 /* EMSApp.xcdatamodeld in Sources */,
 				D72208672320F76600DCB9D9 /* AppDelegate.swift in Sources */,
 			);
